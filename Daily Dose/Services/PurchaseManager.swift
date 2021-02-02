@@ -25,6 +25,7 @@ class PurchaseManager: NSObject, SKProductsRequestDelegate, SKPaymentTransaction
     func fetchProducts(){
         let productIds = NSSet(object: IAP_REMOVE_ADS) as! Set<String>
         productRequest = SKProductsRequest(productIdentifiers: productIds)
+        productRequest.delegate = self
         productRequest.start()
     }
     
@@ -41,6 +42,7 @@ class PurchaseManager: NSObject, SKProductsRequestDelegate, SKPaymentTransaction
     }
     
     func productsRequest(_ request: SKProductsRequest, didReceive response: SKProductsResponse) {
+        
         if response.products.count > 0 {
             products = response.products
         }
@@ -75,8 +77,8 @@ class PurchaseManager: NSObject, SKProductsRequestDelegate, SKPaymentTransaction
                 SKPaymentQueue.default().finishTransaction(transaction)
                 if transaction.payment.productIdentifier == IAP_REMOVE_ADS {
                     UserDefaults.standard.set(true, forKey: IAP_REMOVE_ADS)
-                    transactionComplete?(true)
                 }
+                transactionComplete?(true)
             default:
                 transactionComplete?(false)
                 break
