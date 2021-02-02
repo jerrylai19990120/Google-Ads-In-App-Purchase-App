@@ -388,6 +388,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.1;
 				DEVELOPMENT_TEAM = 8L83CZ8839;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Daily Dose/Info.plist";
@@ -412,6 +413,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.1;
 				DEVELOPMENT_TEAM = 8L83CZ8839;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Daily Dose/Info.plist";
