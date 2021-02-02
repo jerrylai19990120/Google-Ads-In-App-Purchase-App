@@ -3,19 +3,26 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		058C5B42350034C90ADCC0E9 /* Pods_Daily_Dose.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EAFBEABF0946CC3559925C8 /* Pods_Daily_Dose.framework */; };
 		92A5A36E25C8D27E002BC5FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A5A36D25C8D27E002BC5FA /* AppDelegate.swift */; };
 		92A5A37025C8D27E002BC5FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A5A36F25C8D27E002BC5FA /* SceneDelegate.swift */; };
 		92A5A37225C8D27E002BC5FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A5A37125C8D27E002BC5FA /* ViewController.swift */; };
 		92A5A37525C8D27E002BC5FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92A5A37325C8D27E002BC5FA /* Main.storyboard */; };
 		92A5A37725C8D27F002BC5FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92A5A37625C8D27F002BC5FA /* Assets.xcassets */; };
 		92A5A37A25C8D27F002BC5FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92A5A37825C8D27F002BC5FA /* LaunchScreen.storyboard */; };
+		92A5A38325C8D43E002BC5FA /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92A5A38225C8D43E002BC5FA /* StoreKit.framework */; };
+		92A5A38925C8DA74002BC5FA /* GoogleMobileAds.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92A5A38825C8DA74002BC5FA /* GoogleMobileAds.xcframework */; };
+		92A5A38B25C8E1B4002BC5FA /* GoogleAppMeasurement.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92A5A38A25C8E1B4002BC5FA /* GoogleAppMeasurement.xcframework */; };
+		92A5A38F25C8E319002BC5FA /* PurchaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A5A38E25C8E319002BC5FA /* PurchaseManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		41E440B40CADC3FCF13E76EE /* Pods-Daily Dose.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Daily Dose.debug.xcconfig"; path = "Target Support Files/Pods-Daily Dose/Pods-Daily Dose.debug.xcconfig"; sourceTree = "<group>"; };
+		8EAFBEABF0946CC3559925C8 /* Pods_Daily_Dose.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Daily_Dose.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92A5A36A25C8D27E002BC5FA /* Daily Dose.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Daily Dose.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92A5A36D25C8D27E002BC5FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92A5A36F25C8D27E002BC5FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,11 @@
 		92A5A37625C8D27F002BC5FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92A5A37925C8D27F002BC5FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92A5A37B25C8D27F002BC5FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92A5A38225C8D43E002BC5FA /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		92A5A38825C8DA74002BC5FA /* GoogleMobileAds.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GoogleMobileAds.xcframework; path = "Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.xcframework"; sourceTree = "<group>"; };
+		92A5A38A25C8E1B4002BC5FA /* GoogleAppMeasurement.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GoogleAppMeasurement.xcframework; path = Pods/GoogleAppMeasurement/Frameworks/GoogleAppMeasurement.xcframework; sourceTree = "<group>"; };
+		92A5A38E25C8E319002BC5FA /* PurchaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseManager.swift; sourceTree = "<group>"; };
+		973DF36E68DC5400DE0AB577 /* Pods-Daily Dose.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Daily Dose.release.xcconfig"; path = "Target Support Files/Pods-Daily Dose/Pods-Daily Dose.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +43,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92A5A38B25C8E1B4002BC5FA /* GoogleAppMeasurement.xcframework in Frameworks */,
+				92A5A38925C8DA74002BC5FA /* GoogleMobileAds.xcframework in Frameworks */,
+				92A5A38325C8D43E002BC5FA /* StoreKit.framework in Frameworks */,
+				058C5B42350034C90ADCC0E9 /* Pods_Daily_Dose.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +58,8 @@
 			children = (
 				92A5A36C25C8D27E002BC5FA /* Daily Dose */,
 				92A5A36B25C8D27E002BC5FA /* Products */,
+				92A5A38125C8D43E002BC5FA /* Frameworks */,
+				E14799CAB0E158FB620CF867 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +74,52 @@
 		92A5A36C25C8D27E002BC5FA /* Daily Dose */ = {
 			isa = PBXGroup;
 			children = (
+				92A5A38D25C8E302002BC5FA /* Services */,
+				92A5A38C25C8E2FA002BC5FA /* Controllers */,
 				92A5A36D25C8D27E002BC5FA /* AppDelegate.swift */,
 				92A5A36F25C8D27E002BC5FA /* SceneDelegate.swift */,
-				92A5A37125C8D27E002BC5FA /* ViewController.swift */,
 				92A5A37325C8D27E002BC5FA /* Main.storyboard */,
 				92A5A37625C8D27F002BC5FA /* Assets.xcassets */,
 				92A5A37825C8D27F002BC5FA /* LaunchScreen.storyboard */,
 				92A5A37B25C8D27F002BC5FA /* Info.plist */,
 			);
 			path = "Daily Dose";
+			sourceTree = "<group>";
+		};
+		92A5A38125C8D43E002BC5FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92A5A38A25C8E1B4002BC5FA /* GoogleAppMeasurement.xcframework */,
+				92A5A38825C8DA74002BC5FA /* GoogleMobileAds.xcframework */,
+				92A5A38225C8D43E002BC5FA /* StoreKit.framework */,
+				8EAFBEABF0946CC3559925C8 /* Pods_Daily_Dose.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92A5A38C25C8E2FA002BC5FA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				92A5A37125C8D27E002BC5FA /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		92A5A38D25C8E302002BC5FA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				92A5A38E25C8E319002BC5FA /* PurchaseManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E14799CAB0E158FB620CF867 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				41E440B40CADC3FCF13E76EE /* Pods-Daily Dose.debug.xcconfig */,
+				973DF36E68DC5400DE0AB577 /* Pods-Daily Dose.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +129,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 92A5A37E25C8D27F002BC5FA /* Build configuration list for PBXNativeTarget "Daily Dose" */;
 			buildPhases = (
+				ECA25B18E0F04A3B8C84AF00 /* [CP] Check Pods Manifest.lock */,
 				92A5A36625C8D27E002BC5FA /* Sources */,
 				92A5A36725C8D27E002BC5FA /* Frameworks */,
 				92A5A36825C8D27E002BC5FA /* Resources */,
+				0FD481A1B92A503638E0C8BA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,6 +190,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0FD481A1B92A503638E0C8BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Daily Dose/Pods-Daily Dose-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Daily Dose/Pods-Daily Dose-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Daily Dose/Pods-Daily Dose-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECA25B18E0F04A3B8C84AF00 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Daily Dose-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		92A5A36625C8D27E002BC5FA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -140,6 +239,7 @@
 			files = (
 				92A5A37225C8D27E002BC5FA /* ViewController.swift in Sources */,
 				92A5A36E25C8D27E002BC5FA /* AppDelegate.swift in Sources */,
+				92A5A38F25C8E319002BC5FA /* PurchaseManager.swift in Sources */,
 				92A5A37025C8D27E002BC5FA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -202,6 +302,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "${PROJECT_DIR}";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -262,6 +363,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "${PROJECT_DIR}";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -282,14 +384,20 @@
 		};
 		92A5A37F25C8D27F002BC5FA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41E440B40CADC3FCF13E76EE /* Pods-Daily Dose.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8L83CZ8839;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Daily Dose/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Daily\\ Dose",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "jerry-lai.Daily-Dose";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,14 +408,20 @@
 		};
 		92A5A38025C8D27F002BC5FA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 973DF36E68DC5400DE0AB577 /* Pods-Daily Dose.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8L83CZ8839;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Daily Dose/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Daily\\ Dose",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "jerry-lai.Daily-Dose";
 				PRODUCT_NAME = "$(TARGET_NAME)";
